@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="signup.css">
+
+    
+    <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css ">
+   
+    
+</head>
+<body>
+    <div class="header">
+    <div class="for">
+        <nav>
+            <a  href="#" class="LOGO"></a>
+            <ul id="menu">
+                <li class="link"><a href="#">   Home</a> </li>
+                <li class="link"><a href="#"> About</a></li>
+                <li class="link"><a href="#"> Services</a></li>
+                <li class="link"><a href="#"> Review</a></li>
+                <li class="link"><a href="#">Contact</a></li>
+                <div  class = "closemenu"  ><i class="fa-regular fa-circle-xmark" onclick="cls()" ></i></div>
+                
+            </ul>
+          
+        <div  class= "openmenu" ><i class="fa-solid fa-bars"   onclick="show()"  ></i></div>
+        </nav>
+        </div>
+
+  <div class="box">
+            <h1>LOGIN NOW</h1>
+            <form >
+
+
+                <p>Username</p>
+                <input type="text" placeholder="Username" class="text">
+                <p>Password</p>
+                <input type="password" placeholder="Password" class="password">
+                <p></p>
+                <input type="Submit" placeholder="Login"  class="submit">
+                <a href="#">HURRY UP</a>
+
+
+            </form>
+       
+
+
+        <script>
+            
+var menu = document.getElementById("menu");
+
+function cls(){
+    menu.style.right="-275px";
+}
+function show(){
+    menu.style.right="0";
+}
+
+
+
+        </script>
+        
+</body>
+</html>
